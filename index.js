@@ -7,6 +7,10 @@ app.use(express.static("./views"));
 app.get('/C0866924', function (req, res) {
   res.send('<h1>Hello - C0866924 - Karanpreet Kaur</h1> ')
 })
+// http://localhost:3000/name
+app.get('/name', function (req, res) {
+  res.send('<h1>Hello - C0866924 - Karanpreet Kaur</h1> ')
+})
 
 // http://localhost:3000/hello
 app.get('/hello', function (req, res) {
